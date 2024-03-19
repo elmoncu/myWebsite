@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1> Good morning from Chigago !!! </h1>
+  <p> I want to sell some stuff: If you are interested, please fill out the form attached,and I will contact you ASAP</p>
+  <figure>
+    <select name="Itemsale">
+      <optgroup label="ASAP">
+        <option value="refrigerator">Refrigerator </option>
+        <option value="table">Ping Pong Table </option>
+        <option value="furniture">Furniture </option>
+      </optgroup>
+      <optgroup label="A little later">
+        <option value="truck">Truck </option>
+        <option value="car">Car </option>
+      </optgroup>
+    </select>
+  </figure>
+  <textarea name="coment" placeholder="if you have any comment, please type it here"></textarea><br>
+<div class="borddifer"> 
+  <form>
+  <label for="usern">Username:</label>
+  <input required type ="text" name="Username" id="usern"><br>
+  <label for="adr">Adress :</label>
+  <input type="text" name="Adress" id="adr"><br>
+  <label for="city">City :</label>
+  <input type="text" name="City" id="city"><br>
+  <label for="state">State :</label>
+  <input required type="text" name="State" id="state" maxlength="2" placeholder="2 character code"><br>
+  <label for="zcode">Zipcode :</label>
+  <input required type="text" name="Zipcode" id="zcode" placeholder="5 or 9 digits" pattern="^\d{5}9-\d{4})?$" title="Either 5 or 9 digits"><br>
+  <label for="date">Date :</label>
+  <input required type="text" name="date" id="date" value="" placeholder="mm/dd/yyyy"><br>
+  <label for="phone">Phone :</label>
+  <input required type="text" name="Phone" id="phone" value="" placeholder="xxx-xxx-xxxx"><br>
+  <label for="email">Email :</label>
+  <input valid type="text" name="email" id="email" autofocus required placeholder="xadffere@gmail.com"><br>
+  <label for="password">Password :</label>
+  <input valid type="password" name="password" id="password" required pattern="[a-zA--Z0-9]{6,}" placeholder="Add at least 6 letters or numbers">
+</div><br>
+<fieldset>
+  <div id="questions">
+  <legend>Gender</legend>
+    <label for="gender1">Male</label>
+    <input type="checkbox" name="gender" id="gender1" value="Male"><br>
+    <label for="gender2">Female</label>
+    <input type="checkbox" name="gender" id="gender2" value="Female"><br>
+    <label for="gender1">I decline</label>
+    <input type="checkbox" name="gender" id="gender3" value="I decline"><br>
+  </div>
+</fieldset><br>
+<button type="submit">submit</button>
+  <br>
+<button type="reset">reset</button>
+</form><br>
+<script src="script.js"></script>
+</body>
+</html>

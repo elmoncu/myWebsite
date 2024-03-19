@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  height: auto;
+  font-family: 100% 'Courier New', Courier, monospace;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-image: url("images/cloud11.png");
+}
+
+h1 {
+  color: orange;
+  width: 12em;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 780px;
+  margin-bottom: 1px;
+  margin-right: 250px;
+}
+
+p {
+  color: purple;
+  width: 12em;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-left: 780px;
+  margin-bottom: 1px;
+  margin-right: 250px;
+}
+
+figure {
+  width: 8.5em;
+  margin-top: 10px;
+  margin-left: 800px;
+  margin-bottom: 1px;
+  margin-right: 400px;
+  border: 5px solid red
+}
+
+textarea {
+  height: 5em;
+  width: 25em;
+  margin-top: 10px;
+  margin-left: 700px;
+  margin-bottom: 1px;
+  margin-right: 250px;
+  background-color: #bcb8b8;
+}
+
+div.borddifer {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 300px;
+  height: 230px;
+  border: 3px solid #73AD21;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 10 px;
+}
+
+button {
+  width: 4em;
+  height: 2em;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 30px 15px;
+  box-shadow: 10px 10px 10px 10px;
+  background-color: #fb8b5b;
+  color: #403eac;
+  margin-top: 10px;
+  margin-left: 700px;
+  margin-bottom: 1px;
+  margin-right: 250px;
+  border: 2px solid blue;
+}
+
+label {
+  color: red;
+  float: left;
+  width: 6em;
+  text-align: right;
+  font-weight: bold;
+}
+
+fieldset {
+  color: #4207e4;
+  font-size 18 px bold:
+    /margin:10px;
+  margin-left: 20px;
+  margin-bottom: 1px;
+  margin-right: 1200px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+input {
+  background-color: #bcb8b8;
+  margin-left: 1em;
+  margin-bottom: .5em;
+}
+
+input:required {
+  background-color: #fbfb79;
+  border: 1px solid red;
+  )
